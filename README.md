@@ -41,12 +41,15 @@ python -m venv .venv
 ```
 pip install -r requirements.txt
 ```
-### 3️⃣ Streamlit 앱 실행
+## 3️⃣ Streamlit 앱 실행
 ```
 streamlit run app.py
 ```
 → 브라우저에서 자동으로 http://localhost:8501 실행됨.
 
+
+실행화면
+![alt text](image.png)
 ---
 
 ## ⚙️ Azure Web App 배포 (선택)
@@ -86,3 +89,5 @@ Azure App Service 배포 고려 구조 포함.
 ## ⭐️ Author
 JIYOUNG KWON
 GitHub: kwonji0597
+
+
