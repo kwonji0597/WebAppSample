@@ -47,12 +47,17 @@ streamlit run app.py
 ```
 → 브라우저에서 자동으로 http://localhost:8501 실행됨.
 
+---
+
 ## ⚙️ Azure Web App 배포 (선택)
 .deployment 파일과 .vscode/settings.json 구성 포함됨 → VS Code → Azure App Service 확장으로 쉽게 배포 가능.
 
 VSCode에서 Deploy to Web App 실행 시 .deployment 및 .vscode/settings.json 설정이 적용됨.
 
 👉 참고: .vscode/settings.json 에 기본 ignore 패턴 설정 적용 → .venv, __pycache__, .env 등 불필요한 파일은 배포 제외됨
+
+---
+
 
 ## 🎮 게임 설명
 게임 목표: 1부터 100까지의 랜덤 숫자 맞추기.
@@ -63,6 +68,9 @@ Streamlit 앱 UI로 입력 및 결과 확인.
 
 숫자를 맞추면 자동으로 새 게임 시작.
 
+---
+
+
 ## ✅ 주요 기능
 Streamlit 기반 웹 UI 제공.
 
@@ -71,6 +79,9 @@ Session state 로 시도 횟수 및 게임 상태 유지.
 성공 시 자동 초기화 기능.
 
 Azure App Service 배포 고려 구조 포함.
+
+---
+
 
 ## ⭐️ Author
 JIYOUNG KWON
